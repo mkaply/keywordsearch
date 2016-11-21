@@ -1,0 +1,3 @@
+content keywordsearch chrome/content/
+skin keywordsearch classic/1.0   chrome/skin/
+locale keywordsearch en-US chrome/locale/en-US/

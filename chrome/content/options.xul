@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<!DOCTYPE page SYSTEM "chrome://keywordsearch/locale/options.dtd">
+<vbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<setting pref="extensions.keywordsearch.searchengine"
+         type="menulist"
+         title="&extensions.keywordsearch.searchengine.title;"
+         desc="&extensions.keywordsearch.searchengine.desc;">
+  <menulist>
+    <menupopup id="keywordsearch-searchengine">
+    </menupopup>
+  </menulist>
+</setting>
+<setting pref="extensions.keywordsearch.searchengine.abouthome"
+         type="menulist"
+         title="&extensions.keywordsearch.searchengine.abouthome.title;"
+         desc="&extensions.keywordsearch.searchengine.abouthome.desc;">
+  <menulist>
+    <menupopup id="keywordsearch-searchengine-abouthome">
+    </menupopup>
+  </menulist>
+</setting>
+<setting pref="extensions.keywordsearch.searchengine.newtab"
+         type="menulist"
+         title="&extensions.keywordsearch.searchengine.newtab.title;"
+         desc="&extensions.keywordsearch.searchengine.newtab.desc;">
+  <menulist>
+    <menupopup id="keywordsearch-searchengine-newtab">
+    </menupopup>
+  </menulist>
+</setting>
+<setting pref="extensions.keywordsearch.searchengine.contextmenu"
+         type="menulist"
+         title="&extensions.keywordsearch.searchengine.contextmenu.title;"
+         desc="&extensions.keywordsearch.searchengine.contextmenu.desc;">
+  <menulist>
+    <menupopup id="keywordsearch-searchengine-contextmenu">
+    </menupopup>
+  </menulist>
+</setting>
+<setting pref="extensions.keywordsearch.google"
+         type="menulist"
+         title="&extensions.keywordsearch.google.title;">
+  <menulist>
+    <menupopup id="keywordsearch-searchengine">
+      <menuitem value="none" label="&extensions.keywordsearch.google.none;"/>
+      <menuitem value="lucky" label="&extensions.keywordsearch.google.lucky;"/>
+      <menuitem value="browsebyname" label="&extensions.keywordsearch.google.browsebyname;"/>
+    </menupopup>
+  </menulist>
+</setting>
+<setting pref="extensions.keywordsearch.duckduckgo" type="menulist" title="DuckDuckGo Features:">
+  <menulist>
+    <menupopup id="keywordsearch-searchengine">
+      <menuitem value="none" label="&extensions.keywordsearch.duckduckgo.none;"/>
+      <menuitem value="ducky" label="&extensions.keywordsearch.duckduckgo.ducky;"/>
+    </menupopup>
+  </menulist>
+</setting>
+<setting pref="extensions.keywordsearch.google.ncr"
+         type="bool" title="&extensions.keywordsearch.googleNCR;"
+         desc="&extensions.keywordsearch.googleNCR.desc;"/>
+<setting pref="browser.search.openintab"
+         type="bool" title="&extensions.keywordsearch.openintab;"
+         desc="&extensions.keywordsearch.openintab.desc;"/>
+</vbox>

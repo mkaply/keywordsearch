@@ -1,0 +1,20 @@
+<!ENTITY extensions.keywordsearch.searchengine.title "Keyword Search Engine:">
+<!ENTITY extensions.keywordsearch.searchengine.desc "Used when searching from the awesome bar">
+<!ENTITY extensions.keywordsearch.searchengine.abouthome.title "about:home Search Engine:">
+<!ENTITY extensions.keywordsearch.searchengine.abouthome.desc "Used when searching on the about:home page">
+<!ENTITY extensions.keywordsearch.searchengine.newtab.title "New Tab Search Engine:">
+<!ENTITY extensions.keywordsearch.searchengine.newtab.desc "Used when searching on the new tab page">
+<!ENTITY extensions.keywordsearch.searchengine.contextmenu.title "Context Menu Search Engine:">
+<!ENTITY extensions.keywordsearch.searchengine.contextmenu.desc "Used when searching via right click on a web page">
+<!ENTITY extensions.keywordsearch.google.title "Google Features:">
+<!ENTITY extensions.keywordsearch.google.none "None">
+<!ENTITY extensions.keywordsearch.google.lucky "I'm Feeling Lucky">
+<!ENTITY extensions.keywordsearch.google.browsebyname "Browse by Name">
+<!ENTITY extensions.keywordsearch.duckduckgo.title "DuckDuckGo Features:">
+<!ENTITY extensions.keywordsearch.duckduckgo.none "None">
+<!ENTITY extensions.keywordsearch.duckduckgo.ducky "I'm Feeling Ducky">
+<!ENTITY extensions.keywordsearch.googleNCR "Always use google.com for search">
+<!ENTITY extensions.keywordsearch.googleNCR.desc "If you check this, you will not see country specific results.">
+<!ENTITY extensions.keywordsearch.openintab "Open Search Bar searches in a new tab">
+<!ENTITY extensions.keywordsearch.openintab.desc "If you check this, searches from the search bar in the upper right will open in a new tab.">
+

@@ -1,0 +1,19 @@
+div {
+    font-size: 14px;
+    text-align: center;
+    margin: 5px;
+}
+
+vbox {
+    background-color: lightblue;
+    font-size: large;
+}
+
+menulist .menulist-icon {
+    width: 16px;
+    height: 16px;
+}
+
+menulist {
+    font-size: 22px;
+}

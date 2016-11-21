@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+<?xml-stylesheet href="chrome://keywordsearch/skin/install.css" type="text/css"?>
+<window xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+        xmlns:html="http://www.w3.org/1999/xhtml"
+        title="Keyword Search"
+        onload="onLoad();">
+  <script src="install.js"/>
+  <vbox align="center" flex="1" style="overflow:auto" >
+  <html:div>
+  <html:p>Welcome to Keyword Search. With keyword search, your searches in the URL bar</html:p>
+    <html:img src="install1.jpg"></html:img>
+    <html:p>will go where you want</html:p>
+    <image src="install2.jpg"></image>
+    <html:p>not where you last searched</html:p>
+    <image src="install3.jpg"></image>
+    </html:div>
+  <menulist>
+    <menupopup id="keywordsearch-searchengine">
+    </menupopup>
+  </menulist>
+    <html:p>We recommend DuckDuckGo for its <html:a href="https://duckduckgo.com/privacy" target="tab">privacy</html:a>, <html:a href="https://duckduckgo.com/goodies" target="tab">instant answers</html:a>, and less visual clutter.</html:p>
+  </vbox>
+  <vbox align="center" pack="center" style="padding-bottom: 5px">
+    <description>Close this tab when you've made your selection.</description>
+  </vbox>
+</window>
